@@ -1,0 +1,25 @@
+{
+  "name": "testtraining",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NellyAndreina/TestTraining.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Nelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NellyAndreina/TestTraining/issues"
+  },
+  "homepage": "https://github.com/NellyAndreina/TestTraining#readme",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
