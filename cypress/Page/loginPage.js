@@ -20,5 +20,3 @@ export class LoginRegister {
           this.clickLogin();
         }
     }
-//user-name
-//password

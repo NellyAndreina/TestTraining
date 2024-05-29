@@ -5,7 +5,7 @@ export default class ShoppingCardPage {
     }
 
     addProductBikeLight() {
-      cy.get('[data-test="add-to-cart-sauce-labs-bike-light"]').click({force:true});
+      cy.get('button[data-test="add-to-cart-sauce-labs-bike-light"]').click();
     }
 
     addProductBlackpack(){
