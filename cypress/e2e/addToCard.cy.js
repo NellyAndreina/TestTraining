@@ -1,17 +1,13 @@
 import ShoppingCardPage from "../Page/shoppingCardPage";
-import { LoginRegister } from "../Page/loginPage";
+import CommonPage from "../Page/commonPage";
 
-const userData = require('../fixtures/user.json');
 const carPage = new ShoppingCardPage();
-const login = new LoginRegister();
+const commonPage = new CommonPage();
 
 describe('Prueba de agregar artículos al carrito', () => {
   
   beforeEach(() => {
-    login.visitPageLogin();
-    login.getUsername(userData.userName) 
-    login.getPassword(userData.password)
-    login.submit()
+    commonPage.userLogin();
   });
   it('Agregar un producto al carrito', () => {
     cy.log("Agregando un solo producto al carrito de compra");

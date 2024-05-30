@@ -1,0 +1,33 @@
+[
+    {
+      "titulo": "Sauce Labs Blackpack",
+      "subtitulo": "Descripción 1",
+      "imagen": "imagen1.jpg"
+    },
+    {
+      "titulo": "Sauce Labs Bike Light",
+      "subtitulo": "Descripción 2",
+      "imagen": "imagen2.jpg"
+    },
+    {
+      "titulo": "Sauce Labs Bolt T-Shirt",
+      "subtitulo": "Descripción 3",
+      "imagen": "imagen3.jpg"
+    },
+    {
+        "titulo": "Sauce Labs Onsie",
+        "subtitulo": "Descripción 4",
+        "imagen": "imagen4.jpg"
+      },
+      {
+        "titulo": "Sauce Labs Fleece Jacket",
+        "subtitulo": "Descripción 5",
+        "imagen": "imagen5.jpg"
+      },
+      {
+        "titulo": "Test.allTheThings() T-Shirt (Red)",
+        "subtitulo": "Descripción 6",
+        "imagen": "imagen6.jpg"
+      }
+  ]
+  

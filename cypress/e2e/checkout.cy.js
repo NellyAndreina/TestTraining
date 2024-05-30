@@ -1,22 +1,18 @@
 import CheckoutPage from "../Page/checkoutPage";
 import ShoppingCardPage from "../Page/shoppingCardPage";
-import { LoginRegister } from "../Page/loginPage";
+import CommonPage from "../Page/commonPage";
 
-const userData = require('../fixtures/user.json');
 const personData = require('../fixtures/personaInfo.json');
 const carPage = new ShoppingCardPage();
-const login = new LoginRegister();
 const checkOut = new CheckoutPage();
+const commonPage = new CommonPage();
 
 describe('Pruebas de checkout', () => {
 
   beforeEach(() => {
-    login.visitPageLogin();
-    login.getUsername(userData.userName) 
-    login.getPassword(userData.password)
-    login.submit()
+    commonPage.userLogin();
   });
-  it('Se realiza un pedido exitosamente', () => {
+  it('Realizar pedido exitosamente', () => {
     carPage.addProductBikeLight();
     checkOut.goToShoppingCart();
     checkOut.clickOnCheckout();
